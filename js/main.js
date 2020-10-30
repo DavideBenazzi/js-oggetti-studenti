@@ -16,3 +16,25 @@ for (var key in studente) {
   console.log(key);
   console.log(studente[key]);
 }
+//ARRAY DI OGGETTI STUDENTE
+var studenti = [
+  {
+    nome : 'Laura',
+    cognome : 'Rossi',
+    età : 25,
+  },
+  {
+    nome : 'Luca',
+    cognome : 'Verdi',
+    età : 30,
+  },
+  {
+    nome : 'Giovanni',
+    cognome : 'Bianchi',
+    età : 28,
+  }
+];
+//LOOP DI STAMPA NOME COGNOME DI STUDENTI
+for (var i = 0; i < studenti.length; i++) {
+  console.log(studenti[i].nome , studenti[i].cognome);
+}
