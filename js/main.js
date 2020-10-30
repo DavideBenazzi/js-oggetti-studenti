@@ -41,7 +41,7 @@ for (var i = 0; i < studenti.length; i++) {
 //PROMPT UTENTE PER INSERIRE NOME COGNOME ETA'
 var nome = prompt('Inserisci il tuo nome.').trim();
 var cognome = prompt('Inserisci il tuo cognome.').trim();
-var eta = prompt('Inserisci la tua età.').trim();
+var eta = parseInt( prompt('Inserisci la tua età.') );
 //AGGIUNTA DATI UTENTE ALL'ARRAY STUDENTI
 var nuovoStudente = {};
 nuovoStudente.nome = nome;
